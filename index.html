@@ -1,110 +1,44 @@
 <!DOCTYPE html>
-<style>
-    body {
-        background-color: #666666;
-    }
-
-    h1 {
-        text-align: center;
-        top: 50%;
-        left: 50%;
-    }
-
-    .topNav {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .bottomNav {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: #111;
-    }
-
-
-    #searchBar {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        width: 50%;
-        padding: 4px 16px;
-    }
-
-    .searchButtons {
-        display: inline;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-
-
-
-
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Google</title>
-    </head>
-    <header>
-        <nav>
-            <ul class="topNav">
-                <li><a href="#About">About</a></li>
-                <li><a href="#Store">Store</a></li>
-                <li style="float:right"><a href="#Gmail">Gmail</a></li>
-                <li style="float:right"><a href="#Images">Images</a></li>
-                <li style="float:right"><a href="#Products">#</a></li>
-                <li style="float:right"><a href="#User">User Photo</a></li>
-        </nav>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+</head>
 
-    <body>
-        <h1>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </h1>
-        
-        <input type="text" id="searchBar" name ="search" class="searchBar">
-        <form>
-            <input type="button" id="search" name="search" class="searchButtons" value="Search">
-            <input type="button" id="lucky" name="lucky" class ="searchButtons" value="Feeling Lucky">
-        </form>
-        </body>
-        <footer>
-            <ul class="bottomNav">
-                <li><a href="#Advertising">Advertising</a></li>
-                <li><a href="#Business">Business</a></li>
-                <li><a href="#Business">How Search works</a></li>
-                <li style="float:right"><a href="Privacy">Privacy</a></li>
-                <li style="float:right"><a href="Terms">Terms</a></li>
-                <li style="float:right"><a href="Settings">Settings</a></li>
-            </ul>
-        </footer>
+<nav>
+    <ul class="leftNav">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Store">Store</a></li>
+        <li><a href="#Gmail">Gmail</a></li>
+    </ul>
+    <ul>
+        <li><a href="#Images">Images</a></li>
+        <li><a href="#Products">#</a></li>
+        <li><a href="#User">User Photo</a></li>
+    </ul>
+</nav>
+
+<body>
+<h1>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+</h1>
+
+<input type="text" id="search" name ="search" class="searchBar">
+<form>
+    <input type="button" id="search" name="search" value="Search">
+    <input type="button" id="lucky" name="lucky" value="Feeling Lucky">
+</form>
+</body>
+<footer>
+    <ul>
+        <li><a href="Advertising">Advertising</a></li>
+        <li><a href="Business">Business</a></li>
+        <li><a href="Business">Business</a></li>
+        <li><a href="Privacy">Privacy</a></li>
+        <li><a href="Terms">Terms</a></li>
+        <li><a href="Settings">Settings</a></li>
+    </ul>
+</footer>
 
 </html>
