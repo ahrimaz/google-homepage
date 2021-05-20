@@ -4,14 +4,21 @@
         background-color: #666666;
     }
 
-    nav {
+    h1 {
+        text-align: center;
+        top: 50%;
+        left: 50%;
+    }
+
+    .topNav {
         position: fixed;
         top: 0;
         width: 100%;
     }
 
-    footer {
+    .bottomNav {
         position: fixed;
+        bottom: 0;
         width: 100%;
     }
 
@@ -52,16 +59,17 @@
         <meta charset="UTF-8">
         <title>Google</title>
     </head>
-
-    <nav>
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Store">Store</a></li>
-            <li style="float:right"><a href="#Gmail">Gmail</a></li>
-            <li style="float:right"><a href="#Images">Images</a></li>
-            <li style="float:right"><a href="#Products">#</a></li>
-            <li style="float:right"><a href="#User">User Photo</a></li>
-    </nav>
+    <header>
+        <nav>
+            <ul class="topNav">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Store">Store</a></li>
+                <li style="float:right"><a href="#Gmail">Gmail</a></li>
+                <li style="float:right"><a href="#Images">Images</a></li>
+                <li style="float:right"><a href="#Products">#</a></li>
+                <li style="float:right"><a href="#User">User Photo</a></li>
+        </nav>
+    </header>
 
     <body>
         <h1>
@@ -75,10 +83,10 @@
         </form>
         </body>
         <footer>
-            <ul>
-                <li><a href="Advertising">Advertising</a></li>
-                <li><a href="Business">Business</a></li>
-                <li><a href="Business">Business</a></li>
+            <ul class="bottomNav">
+                <li><a href="#Advertising">Advertising</a></li>
+                <li><a href="#Business">Business</a></li>
+                <li><a href="#Business">How Search works</a></li>
                 <li style="float:right"><a href="Privacy">Privacy</a></li>
                 <li style="float:right"><a href="Terms">Terms</a></li>
                 <li style="float:right"><a href="Settings">Settings</a></li>
