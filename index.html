@@ -48,9 +48,23 @@
     }
 
 
-    .searchBar {
-
+    #searchBar {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        padding: 4px 16px;
     }
+
+    .searchButtons {
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+
 
 
 </style>
@@ -76,10 +90,10 @@
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
         </h1>
         
-        <input type="text" id="search" name ="search" class="searchBar">
+        <input type="text" id="searchBar" name ="search" class="searchBar">
         <form>
-            <input type="button" id="search" name="search" value="Search">
-            <input type="button" id="lucky" name="lucky" value="Feeling Lucky">
+            <input type="button" id="search" name="search" class="searchButtons" value="Search">
+            <input type="button" id="lucky" name="lucky" class ="searchButtons" value="Feeling Lucky">
         </form>
         </body>
         <footer>
