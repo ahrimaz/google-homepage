@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="reset.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Google</title>
 </head>
+<body>
 
 <nav>
     <ul class="leftNav">
@@ -19,17 +21,15 @@
     </ul>
 </nav>
 
-<body>
-<h1>
+<div id="center">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-</h1>
+    <input type="text" id="search" name ="search" class="searchBar">
+    <form>
+        <input type="button" id="search" name="search" value="Search">
+        <input type="button" id="lucky" name="lucky" value="Feeling Lucky">
+    </form>
+</div>
 
-<input type="text" id="search" name ="search" class="searchBar">
-<form>
-    <input type="button" id="search" name="search" value="Search">
-    <input type="button" id="lucky" name="lucky" value="Feeling Lucky">
-</form>
-</body>
 <footer>
     <ul>
         <li><a href="Advertising">Advertising</a></li>
@@ -40,5 +40,6 @@
         <li><a href="Settings">Settings</a></li>
     </ul>
 </footer>
+</body>
 
 </html>

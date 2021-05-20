@@ -2,6 +2,18 @@ body {
     background-color: #666666;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+#center {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#center > form {
+    align-self: center;
 }
 
 nav {
@@ -12,7 +24,7 @@ nav {
     display: flex;
 }
 
-nav > ul {
+ul {
     padding: 0;
 }
 
@@ -20,9 +32,15 @@ nav > ul {
     margin-right:auto;
 }
 
+div#center {
+
+}
+
 footer {
     position: fixed;
     width: 100%;
+    background-color: #333333;
+    bottom: 0;
 }
 
 ul {
